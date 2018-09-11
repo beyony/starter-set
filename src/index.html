@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="filterContainer" data-bind="foreach: filters">
+    <img class="filterPreviewImage" data-bind="attr: { src: url }, click: activate">
+  </div>
+
+
+  <div id="canvasContainer">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <footer>
+    <p>press c to clear filters</p>
+  </footer>
+
+
+
+
+  <script src="dist/bundle.js"></script>
+</body>
+
+</html>

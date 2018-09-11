@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+    /*center-center*/
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#canvasContainer {
+    background: #ffffff;
+    width: 85vw;
+    height: 75vh;
+    box-shadow: 0 0 13px 6px rgba(86, 86, 86, 0.09);
+}
+
+.filterContainer {
+    position: absolute;
+    top: 1vh;
+    left: 10%;
+    width: 80%;
+    height: 9vh;
+    background: #eee;
+    box-shadow: inset 0 0 30px 5px #dadada;
+    /*center-center*/
+    border: 4px solid #8080802e;
+    border-radius: 8px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterPreviewImage {
+    max-height: 100%;
+    margin: 0 10px;
+    box-shadow: 0 0 10px #131313;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgb(182, 182, 182);
+}

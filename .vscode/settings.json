@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    // turn off for JS
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true
+}

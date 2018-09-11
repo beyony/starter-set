@@ -1,0 +1,34 @@
+{
+  "name": "photo-editor",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "check": "nsp check | open -tf && retire -n | open -tf && snyk test | open -tf"
+  },
+  "author": "Luca Heider",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "browser-sync": "^2.23.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.11.1",
+    "path": "^0.12.7",
+    "prettier": "1.12.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "knockout": "^3.4.2"
+  }
+}
